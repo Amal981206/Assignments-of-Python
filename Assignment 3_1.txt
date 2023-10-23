@@ -1,0 +1,37 @@
+Assignment 3_1                               AMAL B NAIR    PRN NO. 230944525003
+
+Q1]
+def square():
+   num=int(input("Enter your number"))
+   return num*num
+print(square())
+num1=int(input("Enter your number"))
+square=(lambda num:num*num)(num1)
+print(square)
+
+Q2]
+
+def hello():
+    print("hello world")
+hello()
+
+(lambda : print("Hello World"))
+
+Q3]
+def disp(var, var1=90):
+    print(var, var1)
+disp(10)
+
+temp1=lambda *x:[print("no arg passed to lambda") if(len(x)==0)  else [print(i) for i in x ]]
+temp1()
+temp1(300)
+
+Q4]
+
+def disp(*vars):
+    print(vars)
+disp(200,300,True,'Amal')
+
+a= lambda *x:[print(x)]
+a(300,900)
+a(True, 'AMAL')

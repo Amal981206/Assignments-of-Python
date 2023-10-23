@@ -1,0 +1,97 @@
+Assignment 3_2                         AMAL B NAIR   PRN NO. 230944525003
+
+Q1]
+mylist=[10,'Amal',6.7]
+print(mylist)
+mylist[2]= 'Hari'
+print(mylist)
+mylist.append(30)
+print(mylist)
+
+Q2]
+
+while True:
+    number = int(input("Enter a number (0 to quit): "))
+    if number == 0:
+        break
+number_list.append(number)
+
+print("List of numbers:", number_list)
+print("Length of the list:", len(number_list))
+
+Q3]
+
+list= [10,20,30,40,50]
+print(list)
+list.extend([60,70,80])
+print(list)
+
+Q4]
+list1=[]
+number=int(input("Enter a number :"))
+list1.append(number)
+string=str(input("Enter a string :"))
+list1.append(string)
+decimal=float(input("Enter a decimal :"))
+list1.append(decimal)
+boolean=bool(False)
+list1.append(boolean)
+character=input("Enter a character")
+list1.append(character)
+print("the list from beginning is :", list1)
+print("the reverse order is:", list1[::-1])
+
+Q5]
+
+list2=[10,20,30,40,50]
+print(list2)
+num=0
+list2.append(23)
+print(list2)
+list2.remove(23)
+print(list2)
+
+Q6]
+mylist=[10,20,30,40,50]
+print(mylist)
+mylist.pop(2)
+print(mylist)
+
+Q7]
+
+list5=[]
+
+string= str(input("Enter a string"))
+list5.append(string)
+number= int(input("Enter a number"))
+list5.append(number)
+boolean= bool(True)
+list5.append(boolean)
+character= input("Enter a character")
+list5.append(character)
+decimal= float(input("Enter a decimal"))
+list5.append(decimal)
+print(list5)
+print(list5[::-1])
+print(list5 [2:])
+print(list5[1:3])
+print(list5[-1:-3])
+
+Q8]
+mylist = [i for i in range(1,20)] 
+oddnos= [x for x in range(1,20) if x%2!=0]
+print(mylist)
+print(oddnos)
+
+Q9]
+
+
+names = []
+for i in range(5):
+    name = input("Enter a name: ")
+    names.append(name)
+ascending_sorted_names = sorted(names)
+descending_sorted_names = sorted(names, reverse=True)
+print("Names in ascending order:", ascending_sorted_names)
+print("Names in descending order:", descending_sorted_names)
+

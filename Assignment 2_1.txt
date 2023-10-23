@@ -1,0 +1,85 @@
+   AMAL B NAIR       PRN NO.>230944525003         Assignment 2_1
+
+Q1]
+
+def add():
+    print("call add function")
+def modify():
+    print("call modify function")
+def delete():
+    print("call delete function")
+num=int(input("Enter a number"))
+print(num)
+match(num):
+    case 1:add()
+    case 2:modify()
+    case 3:delete()
+
+Q2]
+def accept():
+    num=int(input("Enter a number"))
+    return num*num
+print(accept())
+
+Q3]
+def disp(*vars):
+    if(vars.__len__()==0):
+        print("no argument is passed")
+    else:
+        for k in vars:
+            print(k)
+disp("abc",200,'3.4',True)
+
+Q4]
+
+def myfun1():
+    print("Inside myfun1")
+def myfun2():
+    myfun1()
+myfun2()
+
+Q5]
+def accept():
+    num=int(input("Enter your number"))
+    if(num>0):
+        return 1
+    elif(num<0):
+        return -1
+    else:
+        return 0
+print(accept())
+
+Q6]
+   def accept():
+    ch=str(input("enter your character"))
+    if(ch == ch.upper()):
+        return ch.lower()
+    else:
+        return ch.upper()
+print(accept())
+
+Q7]
+def accept():
+    ch = str(input("enter your character"))
+    a=ch.swapcase()
+    return a
+print(accept())
+
+Q8]
+def disp(*vars):
+    ch=str(input("Enter the number of strings"))
+    if(vars.__len__()>=3 and vars.__len__()<=5):
+        print(vars)
+    else:
+        print("enter valid number of strings")
+disp()
+
+Q9]
+def sum(*vars):
+   
+    total=0
+    for vars in vars:
+        total+=vars
+    print("sum:",total)
+sum(2,3,4,5)
+
