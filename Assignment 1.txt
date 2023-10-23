@@ -1,0 +1,184 @@
+Name: Amal B Nair
+PRN:230944525003
+
+Question 1]
+
+number=int(input("Enter The Number: "))
+for i in range(1,11):
+    print(number*i)
+    
+Question 2]
+
+ch=input("Enter Any Character: ")
+match ch:
+    case'A':
+        print("Vowel")
+    case'a':
+        print("Vowel")
+    case 'E':
+        print("Vowel")
+    case 'e':
+        print("Vowel")
+    case 'I':
+        print("Vowel")
+    case 'i':
+        print("Vowel")
+    case 'O':
+        print("Vowel")
+    case'o':
+        print("Vowel")
+    case _:
+        print("Not Vowel")
+
+Question 3]
+
+i=1
+while(i<11):
+    print(i)
+    i+=1
+
+Question 4]
+
+i=3
+while(i<30):
+    if(i==24):
+        i+=1
+        continue
+    print(i)
+    i+=1
+   
+Question 5]
+
+marks=int(input("Enter The Marks: "))
+if(marks<35):
+    print("FAIL")
+elif(marks<50):
+    print("PASS")
+elif(marks<75):
+    print("Second Class")
+elif(marks<90):
+    print("First Class")
+else:
+    print("DISTINCTION")
+
+
+Question 6]
+
+i=1
+i1=0
+while(i<11):
+   i1=i+i1
+   i+=1
+print(int(i1))
+
+Question 7]
+
+i1=0
+while(True):
+    i=int(input("Enter The Number: "))
+    i1=i+i1
+    if(i==0):
+       break
+    
+print(int(i1))
+
+Question 8]
+
+ch=ord(input("Enter Any Character :"))
+if(ch>=ord('A')):
+    if(ch<=ord('Z')):
+        print("Upper Case Letter")
+    if(ch>=ord('a')):
+        if(ch<=ord('z')):
+            print("Lower Case Letter")
+else:
+    print("Not An Alphabet")        
+
+    
+Question 9]
+
+n=10
+a , b= 0 , 1
+for i in range(0,n):
+    print(a,end=" ")
+    c=a+b
+    a=b
+    b=c
+
+Question 10]
+
+for i in range(3, 31):
+    for j in range(2, int(i**0.5)+1):
+        if i % j == 0:
+            break
+    else:
+        print(i)
+        
+
+Question 11]
+
+num=int(input("Enter The Number: "))
+if num < 2:
+      print(num, "is not a prime number.")
+else:
+    for i in range(2, int(num**0.5)+1):
+        if num % i == 0:
+            print(num,"Is Not A Prime Number")
+            break
+    else:
+        print(num,"Is A Prime Number")
+        
+Question 12]
+
+for i in range(1,5):
+    for j in range(0,i+1):
+        print("*",end=" ")
+    print(" ")
+
+Question 13]
+
+for i in range(6,0,-1):
+    for j in range(0,i-1):
+        print("*",end=" ")
+    print(" ")
+
+Question 14]
+
+for i in range(1, 6):
+      spaces = 5 - i
+      stars = i * "*"
+
+      print(" " * spaces + stars)
+
+Question 15]
+
+for i in range(1, 6):
+      spaces = 5 - i
+      stars = i * " *"
+
+      print(" " * spaces + stars)
+
+
+Question 16]
+
+for i in range(5,0,-1):
+      spaces = 5 - i
+      stars = i * " *"
+
+      print(" " * spaces + stars)
+
+Question 17]
+
+for i in range(1, 6):
+      spaces = 5 - i
+      stars = i * " *"
+
+      print(" " * spaces + stars)
+for i in range(5,0,-1):
+      spaces = 5 - i
+      stars = i * " *"
+
+      print(" " * spaces + stars)
+
+
+
